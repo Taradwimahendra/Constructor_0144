@@ -40,5 +40,6 @@ void mahasiswa::cetak(){
 
 int main (){
     mahasiswa mhs1(102030); 
+    mahasiswa mhs2("Andi");
 }
 
