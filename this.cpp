@@ -4,5 +4,10 @@ using namespace std;
 class buku {
     string judul;
     public:
-        string
+        string setget(string jdl)
+        {
+            this->judul = jdl
+            
+
+        }
 }
