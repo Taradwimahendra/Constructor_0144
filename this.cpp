@@ -9,4 +9,10 @@ class buku {
             this->judul = jdl;
             return this->judul;
         }
+};
+
+int main(){
+    buku bukunya;
+    cout<<bukunya.setget("Matematika");
+    return 0;
 }
