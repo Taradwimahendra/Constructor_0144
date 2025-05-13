@@ -2,5 +2,13 @@
 using namespace std;
 
 class buku {
-    
+    string judul;
+    public:
+    buku setJudul(string setJudul){
+        this->judul = judul;
+        return *this;
+    }
+    string getJudul(){
+        return this->judul;
+    }
 }
