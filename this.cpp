@@ -6,8 +6,7 @@ class buku {
     public:
         string setget(string jdl)
         {
-            this->judul = jdl
-            
-
+            this->judul = jdl;
+            return this->judul;
         }
 }
